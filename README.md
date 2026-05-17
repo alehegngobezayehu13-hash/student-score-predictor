@@ -1,23 +1,36 @@
 # Student Score Predictor
 
-A beginner machine learning project that predicts student exam scores based on:
+A simple machine learning project that predicts a student's exam score based on key academic and behavioral factors.
 
-- study hours
-- sleep hours
-- attendance
+## Features
+
+- Real dataset 
+- Feature selection 
+- Linear Regression model
+- Model evaluation using MSE
+- Interactive prediction system
+- Saved trained model
 
 ## Technologies Used
 
 - Python
 - pandas
 - scikit-learn
-- matplotlib
 
-## Features
+## Project Structure
 
-- Data loading with pandas
-- Train-test split
-- Linear Regression model
-- Predictions
-- Error evaluation
-- Data visualization
+student-score-predictor/
+│
+├── data/
+│   └── scores.csv
+│
+├── models/
+│   └── score_model.pkl
+│
+├── src/
+│   ├── train.py
+│   └── predict.py
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
