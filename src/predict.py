@@ -19,7 +19,7 @@ data = pd.DataFrame([[
     sleep,
     previous,
     tutoring,
-    activity
+    activity 
 ]], columns=[
     "Hours_Studied",
     "Attendance",

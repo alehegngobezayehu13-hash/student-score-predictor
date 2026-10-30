@@ -22,7 +22,7 @@ A simple machine learning project that predicts a student's exam score based on 
 student-score-predictor/
 │
 ├── data/
-│   └── scores.csv
+│   └── student_performance_factors.csv
 │
 ├── models/
 │   └── score_model.pkl
